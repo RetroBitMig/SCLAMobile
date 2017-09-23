@@ -1,14 +1,10 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-img style="width: 100%; height: auto;" [height]="imgHeight" src="assets/txt_logo_color_lg.png"></ion-img>
+
+  <br />
+
+  <!-- Bind the color, outline and round inputs to an expression -->
+    <button ion-button [outline]="isOutline" [round]="isRound" style="width: 100%;" [navPush]="formPage">
+      Sign Up
+    </button>
 </ion-content>
