@@ -1,5 +1,6 @@
 {
   "name": "SCLAMobile",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "3dbc6ffd",
+  "type": "ionic-angular",
+  "integrations": {}
 }
