@@ -9,6 +9,7 @@ var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 mongoose.connect("mongodb://mijiisan:dogs1234@ds139994.mlab.com:39994/scla-demo");
 
+// try settings the schema for the json
 var appSchema = new mongoose.Schema({
     name: String,
     grades: String,
@@ -20,6 +21,7 @@ var appSchema = new mongoose.Schema({
    });
  
 var SCLA = mongoose.model("SCLA", appSchema);
+
 
 app.use("/img", express.static(__dirname + '/img'));
 
