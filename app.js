@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://mijiisan:dogs1234@ds139994.mlab.com:39994/scla-demo");
+mongoose.connect("mongodb://pffft:pffft@ds139994.mlab.com:39994/scla-demo");
 
 // try settings the schema for the json
 var appSchema = new mongoose.Schema({
